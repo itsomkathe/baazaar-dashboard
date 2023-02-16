@@ -1,0 +1,58 @@
+.cardContainer{
+    background-color: var(--color-bg-primary);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6rem;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: var(--color-bg-dropshadow);
+}
+
+.imageWrapperBlue, .imageWrapperPink{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageWrapperBlue{
+    background-color: var(--color-bg-accepted);
+}
+
+.imageWrapperBlue svg{
+    transform: scale(1.5);
+}
+
+.imageWrapperPink{
+    background-color: var(--color-bg-loop);
+}
+
+.imageWrapperPink svg{
+    transform: scale(1.5);
+}
+
+.textWrapper{
+    height: 3rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading{
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.title{
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}

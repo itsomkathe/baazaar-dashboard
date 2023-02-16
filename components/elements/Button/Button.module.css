@@ -1,0 +1,12 @@
+.button{
+    background-color: var(--color-bg-button);
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.text{
+    color: var(--color-bg-primary);
+}

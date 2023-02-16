@@ -1,0 +1,42 @@
+.titleContainer{
+    background-color: var(--color-bg-primary);
+    height: 6rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--color-bg-dropshadow);
+}
+
+.leftWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logoWrapper{
+    background-color: var(--color-bg-primary);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo{
+    height: 100%;
+    border-radius: 1rem;
+    border: 2.5px solid var(--color-bg-secondary);
+}
+
+.title{
+    margin-left: 1rem;
+}
+
+.rightWrapper{
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}

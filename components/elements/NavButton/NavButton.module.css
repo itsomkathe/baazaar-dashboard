@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    height: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconWrapper, .iconWrapperInactive{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.iconWrapperInactive svg{
+    fill: var(--color-text-secondary);
+}
+
+.text, .textInactive{
+    font-weight: 500;
+}
+
+.textInactive{
+    color: var(--color-text-secondary);
+}
+
+.vertical{
+    height: 100%;
+    border-right: 5px solid black;
+}

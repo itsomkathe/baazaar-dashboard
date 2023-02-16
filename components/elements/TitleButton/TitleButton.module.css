@@ -1,0 +1,15 @@
+.iconWrapper{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 2px solid var(--color-bg-secondary);
+    cursor: pointer;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconWrapper svg{
+    transform: scale(1.5);
+}

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 50%;
+    margin-right: 1rem;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 50%;
+}

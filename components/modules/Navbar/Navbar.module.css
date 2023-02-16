@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-primary);
+    border-radius: 1.5rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-size: 0.8rem;
+}
+
+.buttons{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -6rem;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logout svg{
+    transform: scale(1.5);
+    stroke: var(--color-bg-primary);
+    fill: var(--color-text-secondary);
+}
+
+.logoutText{
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    margin-left: 1rem;
+}
