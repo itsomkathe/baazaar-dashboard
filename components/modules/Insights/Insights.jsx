@@ -48,7 +48,7 @@ const Insights2 = [
   },
 ];
 
-export default function () {
+export default function Insights () {
   return (
     <div className={classes.container}>
         <div className={classes.grid1}>
